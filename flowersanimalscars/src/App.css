@@ -1,0 +1,21 @@
+.checkboxes-container {
+  display: inline-flex;
+}
+
+.checkboxes-container > div > label {
+  position: relative;
+  left: -8px
+}
+
+.images-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.images-container > div {
+  margin: 5px;
+}
+
+img {
+  border-radius: 10px;
+}
